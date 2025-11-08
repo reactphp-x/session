@@ -1,0 +1,20 @@
+{
+    "name": "reactphp-x/session",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ReactphpX\\Session\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {
+        "react/http": "^1.11",
+        "reactphp-x/redis-cache": "^1.0",
+        "hansott/psr7-cookies": "^3.0"
+    }
+}
