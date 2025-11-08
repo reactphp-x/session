@@ -12,7 +12,6 @@ use ReactphpX\RedisCache\RedisCache;
 /**
  * ReactPHP HTTP middleware that provides PSR-7 session handling backed by Redis.
  *
- * Usage (react/http v3 style):
  * $http = new React\Http\HttpServer(
  *     new React\Http\Middleware\StreamingRequestMiddleware(),
  *     new ReactphpX\Session\SessionMiddleware($redisCache, [
